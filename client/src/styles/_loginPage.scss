@@ -1,6 +1,8 @@
 .login-container{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    text-align: center;
     // background-color: red;
     height: 55vh;
     margin-top: 5%;
@@ -9,7 +11,7 @@
 
     h2{
         color: #f9f7f7;
-        padding-top: 5%;
+        // padding-top: 5%;
         font-size: 4rem;
         font-family: 'Merriweather', serif;
     }

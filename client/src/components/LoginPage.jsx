@@ -1,10 +1,12 @@
 import React from 'react'
+import {Container} from "react-bootstrap"
 
 function LoginPage() {
     return (
-        <div>
+        <Container className="login-container">
+            <h2>Pick A Sport</h2>
             
-        </div>
+        </Container>
     )
 }
 

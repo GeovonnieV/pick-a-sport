@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #112d4e;
+}
+
+// google fonts
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+// sub style components
+@import "./loginPage"

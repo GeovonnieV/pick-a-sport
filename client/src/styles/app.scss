@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: #112d4e;
-}
 
 // google fonts
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
@@ -14,3 +11,4 @@ body{
 // sub style components
 @import "./loginPage";
 @import "./loginBtn";
+@import "./home";

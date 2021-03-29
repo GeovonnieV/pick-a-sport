@@ -1,13 +1,15 @@
+body{
+    background-color: #112d4e;
+}
+
 .login-container{
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    // background-color: red;
     height: 55vh;
     margin-top: 5%;
     border-radius: 25px;
-    border: 3px #dbe2ef solid;
 
     h2{
         color: #f9f7f7;
@@ -17,3 +19,37 @@
     }
 }
 
+
+// Media queries 
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .login-container{
+        margin-top: 28%;
+
+    };
+
+    
+
+};
+
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .login-container{
+        margin-top: 25%;
+      
+    };
+
+};
